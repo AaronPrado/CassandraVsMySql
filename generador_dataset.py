@@ -4,7 +4,7 @@ import pandas as pd
 seed_value = 42
 fake = Faker('es_ES')  
 fake.seed_instance(seed_value)
-num_records = 100  # Número de filas que queremos generar
+num_records = 10000  # Número de filas que queremos generar
 
 data = {
     "Nombre": [fake.name() for _ in range(num_records)],
