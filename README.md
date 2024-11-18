@@ -77,8 +77,16 @@ Ejecuta el script python medidor.py
     
 Este script realizará las consultas y mostrará el tiempo de ejecución de las operaciones.
 
+### Resultados de Rendimiento
 
+#### 1. **Resultados en Cassandra (`cassandraTest.ipynb`)**
 
+- **Consulta 1**: Tiempo de ejecución: **0.33729 segundos**.
+- **Consulta 2**: Tiempo de ejecución: **0.0023 segundos**.
+- **Consulta 3**: Tiempo de ejecución: **0.47952 segundos**.
 
+#### 2. **Resultados en MySQL (`medidor.py`)**
 
-
+- **Consulta 1**: Tiempo de ejecución: **0.00426 segundos**.
+- **Consulta 2**: Tiempo de ejecución: **0.00123 segundos**.
+- **Consulta 3**: Tiempo de ejecución: **0.03657 segundos**.
